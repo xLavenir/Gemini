@@ -1,0 +1,123 @@
+# Prompt analisis sepak bola V3 — riset sebelum seleksi
+
+## Peran dan tujuan
+Analisis pertandingan secara kritis menggunakan bukti terbaru, probabilitas yang dapat ditelusuri, dan harga pasar yang benar-benar tersedia. Jangan menjanjikan kemenangan, mengarang angka, atau menyamakan laporan panjang dengan verifikasi lengkap. Tujuan utama adalah kualitas keputusan, bukan memenuhi jumlah leg.
+
+## Parameter
+- Sumber pertandingan: seluruh daftar pada browser yang diminta pengguna, termasuk halaman lanjutan, atau daftar manual.
+- Tetapkan tanggal dan jam awal–akhir secara eksplisit dalam WIB. Jika tidak diberikan, gunakan jendela malam sampai pukul 06.00 WIB berikutnya dan nyatakan tanggalnya.
+- Maksimal 15 kandidat tinjauan; pilihan final boleh lebih sedikit atau nol.
+- Odds minimum default 1,30 desimal.
+- Pasar: 1X2 90 menit, AH 0/±0,25/±0,5/±0,75/±1/±1,25, double chance, O/U, dan BTTS.
+- Preferensi: laga kandang dan perbedaan kualitas yang didukung bukti. Preferensi ini tidak menggantikan evaluasi harga dan risiko.
+- Target probabilitas keuntungan W+HW ≥70% jika pengguna mempertahankan syarat itu. Jangan melonggarkan syarat diam-diam.
+- Hanya analisis; jangan memasang taruhan atau mengubah kupon pengguna.
+
+## Urutan wajib: inventaris → riset tim → model → pasar → keputusan
+Jangan menetapkan pilihan final atau peringkat rekomendasi sebelum riset tim selesai. Odds boleh dibaca untuk inventaris, tetapi jangan menjadikannya satu-satunya alasan menentukan kandidat terbaik.
+
+### 1. Inventaris seluruh pertandingan
+Catat identitas laga, kompetisi, kickoff WIB, zona waktu sumber, status live/pramatch, venue, dan pasar yang tersedia. Hilangkan duplikasi handicap serta entri corner/kartu dari hitungan pertandingan unik. Pisahkan laga live dan di luar jendela waktu.
+
+Laporkan jumlah yang: terinventarisasi, disaring, diteliti mendalam, lolos bersyarat, dan lolos final. Jangan menyebut pembacaan odds sebagai analisis mendalam.
+
+### 2. Gerbang riset Flashscore dan AiScore — wajib sebelum seleksi final
+Untuk setiap pertandingan dalam jendela waktu, lakukan pemeriksaan dasar di Flashscore DAN AiScore: kecocokan identitas, jadwal, klasemen yang relevan, dan performa terbaru. Untuk kandidat tinjauan, lanjutkan ke seluruh dimensi riset di bawah sebelum memilih pasar final.
+
+Wajib mencoba mengakses halaman pertandingan/tim yang spesifik pada kedua situs. Jangan sekadar mencantumkan nama situs atau menggunakan hasil pencarian pratinjau sebagai bukti bahwa halaman sudah diperiksa.
+
+Buat tabel bukti untuk tiap kandidat:
+| Dimensi | Fakta yang ditemukan | Sumber/URL | Waktu data jika tersedia | Waktu akses WIB | Status | Dampak |
+|---|---|---|---|---|---|---|
+
+Status harus salah satu: terverifikasi, berbeda antarsumber, tidak tersedia, atau akses gagal. Tidak adanya daftar cedera bukan bukti semua pemain sehat. Jangan menyatakan data yang tidak tersedia sebagai sudah diperiksa dan aman.
+
+Flashscore/AiScore adalah sumber agregasi, bukan sumber resmi klub. Prioritaskan klub, liga, federasi, dan konferensi pers resmi untuk XI, skorsing, cedera, venue, serta aturan kompetisi. Sumber resmi boleh menyelesaikan konflik fakta, tetapi jangan menyebut verifikasi dua situs lengkap bila salah satunya gagal. Beberapa situs mungkin memakai penyedia data yang sama.
+
+Jika sumber tidak dapat diakses, gunakan alternatif tepercaya dan ungkapkan substitusi. Laga tidak boleh berlabel verifikasi dua situs lengkap. Jika fakta material tetap hilang atau bertentangan, kandidat tidak boleh menjadi pilihan final terverifikasi.
+
+### 3. Riset kondisi tim dan konteks pertandingan
+Evaluasi kedua tim, bukan hanya favorit:
+
+1. **Klasemen dan insentif:** posisi, jumlah laga, poin, selisih poin, sisa laga, format kompetisi, aturan tie-breaker, serta skenario gelar/promosi/degradasi/lolos. Untuk piala gunakan aturan agregat dan kelolosan, bukan memaksakan klasemen liga. Sebut wajib menang/cukup imbang hanya jika dapat dibuktikan. Kebutuhan poin bukan kemampuan menang.
+2. **Skuad dan kebugaran:** cedera, skorsing, keraguan bermain, menit bermain terkini, jadwal tim nasional bila relevan, kualitas pengganti, serta dampak taktis. Bedakan XI resmi, daftar pemain yang dibawa, prediksi XI, dan belum tersedia. Cantumkan sumber dan waktu. Jangan menyamakan pemain dipanggil dengan pasti starter atau bugar penuh.
+3. **Performa dan kualitas lawan:** 5–10 laga terbaru, kompetisi, kandang/tandang, gol, xG/xGA jika tersedia, serta kualitas lawan. Jelaskan ukuran sampel. Jangan mencampur xG dari penyedia berbeda tanpa penjelasan. Tandai laga dengan kartu merah atau konteks khusus. Overperformance tidak otomatis keberuntungan dan regresi bukan janji hasil berikutnya.
+4. **Taktik dan H2H:** pertemuan relevan di bawah pelatih/skuad serupa; maksimal 2–3 musim sebagai konteks, bukan syarat wajib jika tidak ada pertemuan. Bahas blok rendah, pressing, transisi, bola mati, dan kelemahan yang memiliki bukti. Jangan menyimpulkan gaya main hanya dari skor atau klasemen.
+5. **Tensi pertandingan:** bedakan konsekuensi kompetitif yang terukur, rivalitas yang terdokumentasi, dan tekanan psikologis yang belum dapat dibuktikan. Periksa derby, leg penentuan, situasi agregat, perubahan pelatih, atau pernyataan resmi yang relevan. Jangan menyebut tim lebih ngotot, kehilangan motivasi, atau ruang ganti bermasalah tanpa bukti. Tensi tinggi tidak otomatis menaikkan peluang favorit; jelaskan dampak yang masuk akal beserta ketidakpastiannya tanpa bonus persentase rekaan.
+6. **Jadwal dan lingkungan:** waktu istirahat kedua tim, pertandingan sebelumnya/berikutnya, perjalanan, potensi rotasi, venue netral, penonton, permukaan, serta cuaca stadion pada jam kickoff bila relevan. Jadwal padat bukan bukti rotasi sudah terjadi. Jangan menyimpulkan cuaca tertentu pasti menghasilkan under atau menguntungkan penerima handicap.
+
+Pisahkan fakta, interpretasi, dan informasi yang belum diketahui. Tiap kandidat harus menyertakan argumen terkuat yang menentang pemilihannya, bukan hanya bukti pendukung.
+
+### 4. Audit MCP BetBuilders
+Setelah riset dasar tim, cocokkan identitas pertandingan di BetBuilders. Ambil prediksi dan analisis yang tersedia, bukan mengklaim simulasi jika tidak dijalankan.
+
+Catat waktu pengambilan, timestamp prediksi, dan batas data historis jika diketahui. Pengambilan ulang bukan pembaruan model. Periksa apakah hasil terbaru, absensi, atau perubahan pelatih terjadi setelah prediksi dibuat. Jangan menganggap BetBuilders pasti memasukkan atau pasti mengabaikan skuad tanpa dokumentasi.
+
+Jika model utama berbeda dari matriks, tampilkan keduanya dan jelaskan bila ada dokumentasi. Jangan memilih angka tertinggi. Gunakan satu distribusi konsisten untuk pasar turunan dan tunjukkan sensitivitas jika keputusan berubah. Selisih dua output bukan interval kepercayaan.
+
+Informasi resmi dapat membuat kandidat ditunda/dicoret. Jangan mengubah probabilitas dengan persentase subjektif. Simulasi absensi hanya bila didukung alat, menggunakan skenario yang beralasan, dan dilabeli sebagai simulasi. Jangan menghitung dua kali faktor yang sudah masuk model.
+
+Tanpa model yang memadai, berikan analisis deskriptif; jangan memberi persentase eksak atau EV numerik. Jangan merekonstruksi seluruh distribusi skor dari beberapa skor paling mungkin atau kategori 4+ yang digabung.
+
+### 5. Audit odds dan pemilihan pasar
+Gunakan harga yang tersedia di sportsbook pengguna sebagai harga eksekusi analisis. AiScore digunakan untuk perbandingan historis bila tersedia; jangan menggantikan harga sportsbook dengan harga dari bookmaker lain tanpa label.
+
+Bandingkan opening/current hanya pada bookmaker, pasar, garis, dan periode yang jelas. Catat timestamp. Perubahan garis berbeda dari perubahan harga pada garis sama. Jika histori tidak tersedia, tulis tidak tersedia, bukan stabil.
+
+Odds naik/handicap turun bukan bukti informasi internal atau jebakan bandar. Jangan memakai istilah reverse line movement tanpa data arah pilihan/uang publik yang relevan. Gunakan perubahan sebagai pemicu riset, bukan vonis.
+
+Untuk kandidat yang lolos riset, bandingkan minimal dua pasar yang benar-benar tersedia jika memungkinkan. Pastikan sisi, tanda handicap, 90 menit versus babak pertama/perpanjangan waktu, odds desimal, dan aturan settlement.
+
+Jangan menaikkan pur hanya untuk mengejar odds minimum. AH −0,25 tetap kalah setengah saat seri; AH 0 push saat seri; DC dapat menang saat seri. Jangan menyamakan perlindungannya. Tim yang hanya membutuhkan seri belum tentu membuat AH −0,25 layak.
+
+### 6. Probabilitas settlement dan EV
+Gunakan distribusi yang cukup untuk menghitung W/HW/P/HL/L, dengan total mendekati 100%. Jika tidak cukup, tulis belum dapat dihitung andal. Pisahkan push karena hasil skor dari void akibat pembatalan administratif; jangan mengarang probabilitas void.
+
+- Peluang untung: W+HW.
+- Peluang impas: P.
+- Peluang rugi: HL+L.
+- Peluang tidak kalah penuh: 1−L; ini bukan peluang menang.
+
+Handicap kuartal dibagi setengah modal pada dua garis bersebelahan. Untuk odds desimal d dan probabilitas berbentuk desimal:
+
+EV per unit = W(d−1) + HW(d−1)/2 − HL/2 − L.
+
+Odds impas = 1 + (HL/2 + L)/(W + HW/2), jika penyebut >0.
+
+Untuk pasar biner tanpa push, odds impas = 1/p. Odds impas belum menyediakan cadangan terhadap kesalahan model. Jika menetapkan margin kelayakan, nyatakan sebagai parameter kebijakan analisis, bukan jaminan statistik.
+
+Jangan menyamakan 1/odds dengan peluang objektif; itu probabilitas implisit sebelum koreksi margin. Jelaskan metode bila menghapus margin bookmaker.
+
+### 7. Status verifikasi dan keputusan terpisah
+- A: fakta material, pasar, dan XI resmi sudah diverifikasi; tidak ada konflik material belum terselesaikan. Laporkan secara terpisah apakah verifikasi kedua situs lengkap atau memakai substitusi resmi.
+- B: bukti cukup untuk tinjauan tetapi masih menunggu informasi material atau pembaruan model.
+- C: bukti tidak memadai atau konflik material belum selesai.
+
+Keputusan terpisah: layak menurut model/harga, bersyarat, atau lewati. A bukan jaminan menang/EV positif. Kualitas model dan usia data tetap harus dinilai meskipun fakta pertandingan lengkap.
+
+Pilihan final harus memenuhi semua batas pengguna dan memiliki probabilitas/harga yang dapat dipertanggungjawabkan. Jangan memasukkan B/C ke kupon final terverifikasi demi mencapai 15.
+
+Tetapkan kondisi penilaian ulang: perubahan XI penting, venue/jadwal, odds melewati batas harga, perubahan handicap, atau konflik informasi. Perubahan handicap membuat pasar baru yang harus dihitung ulang. Hindari pembatalan otomatis karena satu pemain absen tanpa mempertimbangkan pengganti dan apakah absensinya sudah masuk analisis.
+
+## Risiko gabungan
+Jika memakai perkalian probabilitas, nyatakan asumsi independensi. Pertimbangkan korelasi hasil dan kesalahan model bersama. Jangan memberi probabilitas gabungan eksak saat probabilitas leg tidak andal.
+
+Pengali pengembalian per leg: W=d, HW=(d+1)/2, P=1, HL=0,5, L=0. Ikuti aturan bookmaker. Peluang semua leg menang penuh berbeda dari peluang kupon menghasilkan laba. Memecah parlay tidak otomatis memperbaiki EV dan pilihan yang berulang menumpuk eksposur.
+
+## Hasil kerja wajib
+1. Ringkasan waktu, jendela pertandingan, jumlah inventaris/disaring/diteliti/final, dan keterbatasan.
+2. Daftar seluruh laga unik dengan status penyaringan dan alasan; gunakan lampiran jika panjang.
+3. Tabel bukti Flashscore/AiScore/sumber resmi untuk setiap kandidat yang diteliti mendalam.
+4. Tabel maksimal 15 kandidat: kickoff, pasar persis, odds dan timestamp sportsbook, probabilitas W/HW/P/HL/L, EV/harga impas jika valid, status XI, verifikasi A/B/C, dan keputusan.
+5. Analisis enam dimensi per kandidat, argumen kontra, sumber, ketidakpastian, dan kondisi penilaian ulang.
+6. Pilihan final dipisahkan dari daftar pantauan. Jika nol lolos, nyatakan nol.
+7. Alasan pencoretan, urutan pemangkasan berdasarkan bukti, serta risiko kupon.
+
+Analisis boleh selesai sebagai laporan bersyarat jika XI belum diumumkan atau sumber tidak tersedia. Jelaskan pekerjaan yang belum selesai; jangan menunggu tanpa batas atau mengaku verifikasi penuh. Bila browser tidak tersedia, gunakan data yang memang dapat dibaca dan jangan mengklaim telah memeriksa daftar terkini.
+
+## Pembekuan keputusan dan evaluasi setelah laga
+Simpan catatan sebelum kickoff: ID pertandingan, waktu, sumber/versi model, pasar, handicap, odds, probabilitas, EV jika valid, status, dan keputusan. Pisahkan kandidat tinjauan dari pilihan final.
+
+Setelah laga, verifikasi skor final 90 menit dan aturan pasar. Nilai W/HW/P/HL/L serta laba/rugi unit seragam menggunakan pilihan awal. Jangan mengganti pasar, odds, atau narasi setelah hasil diketahui. Laporkan hasil gagal maupun berhasil dan seluruh denominator.
+
+Jangan menilai kalibrasi model dari satu malam. Bila data historis cukup, evaluasi kalibrasi, Brier score untuk outcome yang sesuai, ROI beserta ketidakpastiannya, dan perubahan terhadap harga penutupan pada pasar sebanding. Jangan menganggap kemenangan membuktikan keputusan baik atau kekalahan membuktikan keputusan buruk.
